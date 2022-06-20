@@ -1,0 +1,20 @@
+POST http://localhost:8080/api/users
+Content-Type: application/x-www-form-urlencoded
+
+username=leesin&password=leesin
+
+###
+GET http://localhost:8080/api/users/555
+Accept: application/json
+
+###
+GET http://localhost:8080/api/users/1
+Accept: application/json
+
+###
+GET http://localhost:8080/api/users
+Accept: application/json
+
+###
+GET localhost:8080/api/index
+
